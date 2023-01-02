@@ -63,6 +63,17 @@ body {
       flex-wrap: nowrap;
     }
     
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    .number {
+        font-size: 1.4rem;
+    }
+    
+    .timer span {
+        font-size: 0.4rem;
+    
     body {
         flex-wrap: nowrap;
         min-width: 100%;
