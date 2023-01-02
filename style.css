@@ -58,7 +58,7 @@ body {
     word-spacing: 0.5em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .container {
       flex-wrap: no-wrap;
       max.width: 100%;
@@ -67,5 +67,6 @@ body {
     body {
         flex-wrap: no-wrap;
         min-width: 100vh;
+        background-size: contain;
     }
 }
