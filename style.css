@@ -24,6 +24,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 100vh;
+    min-width: 100%;
 }
 
 .container {
@@ -61,5 +62,10 @@ body {
   .container {
       flex-wrap: no-wrap;
       max.width: 100%;
+    }
+    
+    body {
+        flex-wrap: no-wrap;
+        min-width: 100%;
     }
 }
