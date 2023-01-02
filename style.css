@@ -60,12 +60,12 @@ body {
 
 @media screen and (max-width: 480px) {
   .container {
-      flex-wrap: no-wrap;
-      max.width: 100%;
+      flex-wrap: nowrap;
+      max-width: 100%;
     }
     
     body {
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         min-width: 100vh;
         background-size: contain;
     }
