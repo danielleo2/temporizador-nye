@@ -28,6 +28,7 @@ body {
 
 .container {
     background-color: rgba(8, 8, 8, 0.6);
+    width: 100%;
 }
 
 .counter-ctn {
@@ -52,4 +53,10 @@ body {
     font-size: 0.7rem;
     font-family: 'Syncopate', sans-serif;
     word-spacing: 0.5em;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+      max.width: 100%;
+    }
 }
